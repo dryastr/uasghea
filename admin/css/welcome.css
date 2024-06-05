@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* open navbar */
+
+
+.navbar{
+    background-color: hwb(193 11% 0% / 0); 
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    /* border-bottom: 2px solid #ED7D31;
+    margin-left: 20px;               kalo pengen pake border di bawah
+    margin-right: 20px; */
+    font-family: Arial, Helvetica, sans-serif
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: normal;
+    color: #F6F1EE;
+
+}
+
+.navbar span{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.navbar img{
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.ul_navbar{
+    display: flex;
+    list-style: none;
+    /* background-color: blue; */
+    justify-content: space-around;
+    width: 250px;
+}
+
+
+
+.container_ul_navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin-top: 10px;
+    /* background-color: purple; */
+}
+
+
+.ul_navbar li a{
+    text-decoration: none;
+    color: #F6F1EE;
+}
+
+.ul_navbar li a:hover{
+    background-color: #F6F1EE;
+    color: hwb(0 0% 100%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.user_option a{
+    text-decoration: none;
+    color: #F6F1EE;
+}
+
+/* close navbar */
+
+
+/* open content */
+
+.container_content{
+    background-color: hsl(0, 0%, 0%);
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero_text_h1{
+    margin-bottom: 100px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: bolder;
+    font-size:50px;
+    font-style: normal;
+    color: #F6F1EE;
+}
+
+.hero_p{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #F6F1EE;
+}
+
+.container_email{
+    color: #F6F1EE;
+    font-weight: 400;
+}
+
+.hero_img img{
+    width: 350px;
+}
+
+/* close content */
+
+
+/* open footer */
+
+footer{
+    background-color: hsl(0, 1%, 28%);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer span{
+    color: hsl(0, 0%, 94%);
+    font-family: "PT Sans", sans-serif;
+    font-weight: bolder;
+    font-size:18px;
+    font-style: normal;
+
+}
+
+/* close footer */
+
+
+
+
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+
+/* open artikel content */
+
+
+.container_artikel{
+    background-color:hwb(193 11% 0%); 
+}
+
+.container_judul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.judul_artikel{
+    margin-top: 50px;
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    font-weight: bolder;
+    font-size:30px;
+    font-style: normal;
+    color: #F6F1EE;
+    border-bottom: 3px solid #F6F1EE;
+    width: 200px;
+}
+
+
+.article_item{
+    /* border: 2px solid #F6F1EE; */
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.img_content_artikel{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #F6F1EE;
+    object-fit: cover;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article_title{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #F6F1EE;
+}
+
+.nama_artikel{
+    color: #F6F1EE;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-bottom: 6px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container_content_artikel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deskripsi_artikel{
+    margin-left: 20px;
+}
+
+.deskripsi_artikel p {
+    color: #F6F1EE;
+}
+
+.article_meta{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #F6F1EE;
+}
+/* close artikel content */
